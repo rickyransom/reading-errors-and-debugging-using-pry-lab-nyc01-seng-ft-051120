@@ -1,5 +1,4 @@
 # don't forget to add: require 'pry'
-require 'pry'
 
 def generate_star_date
   (rand(100000) + 400000) / 10.0
@@ -19,7 +18,6 @@ def greet_crew (crew)
 end
 
 def engage
-  binding.pry
   date = generate_star_date
   state_log(date)
   greet_crew(crew)
