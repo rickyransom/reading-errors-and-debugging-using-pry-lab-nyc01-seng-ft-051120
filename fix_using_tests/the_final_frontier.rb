@@ -10,6 +10,7 @@ def state_log(star_date)
 end
 
 def crew
+  binding.pry
   ["Geordi", "Data", "Worf", "William", "Beverly", "Deanna"]
 end
 
@@ -18,7 +19,6 @@ def greet_crew (crew)
 end
 
 def engage
-  binding.pry
   date = generate_star_date
 puts  state_log(date)
   greet_crew(crew)
